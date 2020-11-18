@@ -1,0 +1,9 @@
+.theme_light {
+    --content-color: #262626 !important;
+    --background-color: #d9d9d9 !important;
+}
+
+.theme_light {
+    --content-color: #d9d9d9 !important;
+    --background-color: #262626 !important;
+}
