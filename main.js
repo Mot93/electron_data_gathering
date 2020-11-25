@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow } = require('electron');
 
 function createWindow () {
   const win = new BrowserWindow({
@@ -8,7 +8,7 @@ function createWindow () {
       nodeIntegration: true
     }
   })
-  win.loadFile('pages/main_page/index.html')
+  win.loadFile('app/pages/homepage/homepage.html')
   win.webContents.openDevTools()
 }
 
